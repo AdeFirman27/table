@@ -1,0 +1,36 @@
+.tabel {
+	border-collapse: collapse;
+	border-radius: 5px 5px 0 0;
+	border-bottom:2px solid #009879;
+	font-family: "arial";
+	font-weight: bold;
+	color: #009879;
+	width: 500px;
+	margin-top: 150px;
+	background: #dfe4ea;
+}
+
+.tabel tr th {
+	background: #009879;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tabel, th, td {
+	padding: 8px 20px;
+	text-align: left;
+}
+
+.tabel tr:nth-child(even) {
+	background: #fff;
+	color: #2C3A47;
+	font-weight: normal;
+}
+
+.kiri {
+	border-radius: 7px 0 0 0;
+}
+
+.kanan {
+	border-radius: 0 7px 0 0;
+}
